@@ -33,8 +33,6 @@ table{
 }
 
 .restaurant {
-    margin-left:auto;
-    margin-right: auto;
     width: 400px;
     height:300px;
 }
@@ -42,4 +40,15 @@ table{
 td {
     padding: 0 20px 0 20px;
     width: 50%;
+}
+
+photos{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+tab-box inverse {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box
 }
