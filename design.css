@@ -1,8 +1,4 @@
-h1{
-    color: blue;
-    font-size: 200;
-    font-family: 'raleway', sans-serif;
-}
+
 body{ 
     background-color: aliceblue;
     font-family:'raleway', sans-serif;
@@ -15,16 +11,15 @@ h2{
     color:black;
     font-family: sans-serif;
     background-color: brown;
-    font-size: 300;
-    height: 180px;
-    text-align: center
-    
 }
 #logo{
     font-size: 200;
-
 }
 #navigation{
-    border: 15px
-
+    border: 15px;
+}
+#titre{ 
+    text-align: center;
+    color: coral;
+    
 }
