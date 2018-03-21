@@ -4,6 +4,13 @@ body{
     font-family:'raleway', sans-serif;
     margin: auto;
 }
+
+h1{
+   font-family: 'chalkduster'; 
+   font-size: 400;
+   text-align:center;
+}
+
 h2{
     color: black;
     font-size: 150;
@@ -40,7 +47,10 @@ table{
 td {
     padding: 0 20px 0 20px;
     width: 50%;
+    margin-left:auto;
+    margin-right: auto;
 }
+<<<<<<< HEAD
 
 photos{
     margin-left:auto;
@@ -52,3 +62,14 @@ tab-box inverse {
     margin-right: 15px;
     box-sizing: border-box
 }
+=======
+.vertical {
+    width: 300px;
+    height: 450px;
+}  
+
+.horizontal {
+    width: 400px;
+    height: 250px;
+}  
+>>>>>>> 493948e00695a56f1066527a958bb88023e37443
