@@ -25,3 +25,20 @@ h2{
     color: coral;
     
 }
+
+table{
+    border-collapse:collapse;
+    align-content:center;
+
+}
+
+.restaurant {
+    width: 150px;
+    height:250px;
+}
+
+td {
+    padding: 0 20px 0 20px;
+    width: 50%;
+
+}
