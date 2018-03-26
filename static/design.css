@@ -105,12 +105,12 @@ tab-box inverse {
 .vertical {
     width: 300px;
     height: 450px;
-    filter:alpha(opacity=100);
+    filter:alpha(opacity=50);
 }  
 
 .horizontal {
     width: 400px;
     height: 250px;
-    filter:alpha(opacity=100);
+    filter:alpha(opacity=50);
 }  
 >>>>>>> 493948e00695a56f1066527a958bb88023e37443
