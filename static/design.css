@@ -81,9 +81,8 @@ td {
 
 
 }
-<<<<<<< HEAD
 
-photos{
+photos {
     margin-left:auto;
     margin-right: auto;
 }
@@ -93,14 +92,49 @@ tab-box inverse {
     margin-right: 15px;
     box-sizing: border-box
 }
-=======
 .vertical {
     width: 300px;
     height: 450px;
+    opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
 }  
 
 .horizontal {
     width: 400px;
     height: 250px;
+    opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
 }  
->>>>>>> 493948e00695a56f1066527a958bb88023e37443
+
+.Navigation {
+   position: fixed;
+   left: 0;
+   right: 0;
+   height: 60px;
+   background-color: brown;
+   top: 0;
+}
+.navigation { 
+    padding: 10px;
+    padding-left: 200px;
+
+}
+.navigation col {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s
+}
+.navigation col:hover {
+    color: #62bcda;
+    transition: all 0.3s ease 0.2s;
+}
+.container {
+   height: 950px; 
+ }
