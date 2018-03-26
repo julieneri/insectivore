@@ -89,6 +89,8 @@ td {
 
 
 }
+<<<<<<< HEAD
+=======
 
 photos {
     margin-left:auto;
@@ -100,6 +102,7 @@ tab-box inverse {
     margin-right: 15px;
     box-sizing: border-box
 }
+>>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
 .vertical {
     width: 300px;
     height: 450px;
@@ -109,3 +112,38 @@ tab-box inverse {
     width: 400px;
     height: 250px;
 }  
+<<<<<<< HEAD
+
+.Navigation {
+   position: fixed;
+   left: 0;
+   right: 0;
+   height: 60px;
+   background-color: brown;
+}
+.navigation { 
+    padding: 10px;
+    padding-left: 600px;
+
+}
+.navigation col {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s
+}
+.navigation col:hover {
+    color: #62bcda;
+    transition: all 0.3s ease 0.2s;
+}
+.separator{
+    height: 10px;
+    background-color: red;
+}
+.container {
+   height: 950px; 
+ }
+=======
+>>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
