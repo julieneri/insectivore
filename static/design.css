@@ -7,7 +7,6 @@ body{
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 100px;
-    cursor: ("http://a406.idata.over-blog.com/3/01/35/44/gif/animaux/insecte/araignee/araignee_pt-13.gif") auto
 }
 
 
@@ -50,6 +49,7 @@ h2{
     font-size: 200;
 }
 #navigation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 15px;
 }
 #titre{ 
@@ -137,3 +137,14 @@ height: 35px;
 width: 35px;
 
 }
+#Reseaux{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+    border-style: solid;
+    border-color: orangered;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    }
