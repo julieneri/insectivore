@@ -4,7 +4,7 @@ body{
     font-family:'raleway', sans-serif;
     margin: auto;
     border-style: solid;
-    border-color:black;
+    border-color:blue;
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
@@ -15,8 +15,6 @@ h1{
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
-   border-style: solid;
-   border-color: orangered;
    margin-top: 100px;
    margin-right: 100px;
    margin-left: 100px;
