@@ -10,6 +10,7 @@ body{
 }
 
 h1{
+ 
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
@@ -110,8 +111,9 @@ tab-box inverse {
    top: 0;
 }
 .navigation { 
-    padding: 10px;
-    padding-left: 200px;
+    padding: 5px;
+    padding-left: 100px;
+    
 
 }
 .navigation col {
@@ -129,3 +131,8 @@ tab-box inverse {
 .container {
    height: 950px; 
  }
+.logo-up {
+height: 35px;
+width: 35px;
+
+}
