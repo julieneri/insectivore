@@ -89,8 +89,6 @@ td {
 
 
 }
-<<<<<<< HEAD
-=======
 
 photos {
     margin-left:auto;
@@ -102,7 +100,6 @@ tab-box inverse {
     margin-right: 15px;
     box-sizing: border-box
 }
->>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
 .vertical {
     width: 300px;
     height: 450px;
@@ -114,7 +111,6 @@ tab-box inverse {
     height: 250px;
     filter:alpha(opacity=50);
 }  
-<<<<<<< HEAD
 
 .Navigation {
    position: fixed;
@@ -122,17 +118,18 @@ tab-box inverse {
    right: 0;
    height: 60px;
    background-color: brown;
+   top: 0;
 }
 .navigation { 
     padding: 10px;
-    padding-left: 600px;
+    padding-left: 200px;
 
 }
 .navigation col {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 10px;
     color: #FFF;
     transition: all 0.1s ease 0.2s
 }
@@ -140,12 +137,6 @@ tab-box inverse {
     color: #62bcda;
     transition: all 0.3s ease 0.2s;
 }
-.separator{
-    height: 10px;
-    background-color: red;
-}
 .container {
    height: 950px; 
  }
-=======
->>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
