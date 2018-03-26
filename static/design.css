@@ -3,8 +3,6 @@ body{
     background-color: aliceblue;
     font-family:'raleway', sans-serif;
     margin: auto;
-    border-style: solid;
-    border-color:blue;
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
@@ -12,6 +10,9 @@ body{
 }
 
 h1{
+
+    animation-duration: 3s;
+     animation-name: slidein;
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
@@ -77,15 +78,7 @@ td {
     margin-left:auto;
     margin-right: auto;
 
-    .ml2 {
-        font-weight: 900;
-        font-size: 3.5em;
-      }
-      
-      .ml2 .letter {
-        display: inline-block;
-        line-height: 1em;
-      }
+
 
 
 }
@@ -106,7 +99,7 @@ tab-box inverse {
 }  
 
 .horizontal {
-    width: 400px;
+    width: 350px;
     height: 250px;
 }  
 
