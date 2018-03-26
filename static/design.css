@@ -3,6 +3,7 @@ body{
     background-color: aliceblue;
     font-family:'raleway', sans-serif;
     margin: auto;
+    border-bottom-color: aqua;
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
@@ -13,6 +14,7 @@ h1{
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
+   border-bottom-color: aqua;
    margin-top: 100px;
    margin-right: 100px;
    margin-left: 100px;
@@ -34,6 +36,10 @@ h2{
     color:black;
     font-family: sans-serif;
     background-color: brown;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 #logo{
     font-size: 200;
