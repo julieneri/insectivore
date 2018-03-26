@@ -3,23 +3,47 @@ body{
     background-color: aliceblue;
     font-family:'raleway', sans-serif;
     margin: auto;
+    border-style: solid;
+    border-color:blue;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 h1{
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
+   margin-top: 100px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin-bottom: 100px;
 }
 
 h2{
     color: black;
     font-size: 150;
+    border-style: solid;
+    border-color: orange;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+
 
 }
 #menu{
     color:black;
     font-family: sans-serif;
     background-color: brown;
+    border-style: solid;
+    border-color: orange;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 #logo{
     font-size: 200;
@@ -38,7 +62,10 @@ table{
     align-content:center;
 
 }
-
+.logo {
+    width: 25px;
+    height:25px;
+}
 .restaurant {
     width: 400px;
     height:300px;
@@ -49,16 +76,45 @@ td {
     width: 50%;
     margin-left:auto;
     margin-right: auto;
+
+    .ml2 {
+        font-weight: 900;
+        font-size: 3.5em;
+      }
+      
+      .ml2 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
+
+
 }
+<<<<<<< HEAD
+=======
+
+photos {
+    margin-left:auto;
+    margin-right: auto;
+}
+
+tab-box inverse {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box
+}
+>>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
 .vertical {
     width: 300px;
     height: 450px;
+    filter:alpha(opacity=50);
 }  
 
 .horizontal {
     width: 400px;
     height: 250px;
+    filter:alpha(opacity=50);
 }  
+<<<<<<< HEAD
 
 .Navigation {
    position: fixed;
@@ -91,3 +147,5 @@ td {
 .container {
    height: 950px; 
  }
+=======
+>>>>>>> 93708f074b020c2a5d9e9a9693fd1d3ab42448f6
