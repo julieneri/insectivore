@@ -103,19 +103,11 @@ tab-box inverse {
 .vertical {
     width: 300px;
     height: 450px;
-    opacity:0.8;
--moz-transition: opacity 0.7s;
--webkit-transition: opacity 0.7s;
--o-transition: opacity 0.7s;
 }  
 
 .horizontal {
     width: 400px;
     height: 250px;
-    opacity:0.8;
--moz-transition: opacity 0.7s;
--webkit-transition: opacity 0.7s;
--o-transition: opacity 0.7s;
 }  
 
 .Navigation {
