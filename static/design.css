@@ -64,7 +64,10 @@ table{
     align-content:center;
 
 }
-
+.logo {
+    width: 25px;
+    height:25px;
+}
 .restaurant {
     width: 400px;
     height:300px;
