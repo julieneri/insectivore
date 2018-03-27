@@ -111,10 +111,19 @@ tab-box inverse {
 
 
 
-.horizontal {
+.horizontal-opacity{
     width: 350px;
     height: 250px;
 }  
+
+.horizontal-opacity img {
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+    }
+.horizontal-opacity img:hover {
+    filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+    }
 
 .Navigation {
    position: fixed;
