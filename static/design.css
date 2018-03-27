@@ -96,16 +96,16 @@ tab-box inverse {
     height: 450px;
 }  
 
-.horizontal {
+.horizontal-opacity{
     width: 350px;
     height: 250px;
 }  
 
-.horizontal img {
+.horizontal-opacity img {
     filter: opacity(100%);
     -webkit-filter: opacity(100%);
     }
-.horizontal img:hover {
+.horizontal-opacity img:hover {
     filter: opacity(50%);
     -webkit-filter: opacity(50%);
     }
