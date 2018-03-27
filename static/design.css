@@ -1,5 +1,6 @@
+body 
 
-body{ 
+{ 
     background-color: aliceblue;
     font-family:'raleway', sans-serif;
     margin: auto;
@@ -9,8 +10,8 @@ body{
     margin-bottom: 100px;
 }
 
+
 h1{
- 
    font-family: 'chalkduster'; 
    font-size: 400;
    text-align:center;
@@ -49,6 +50,7 @@ h2{
     font-size: 200;
 }
 #navigation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 15px;
 }
 #titre{ 
@@ -76,9 +78,6 @@ td {
     width: 50%;
     margin-left:auto;
     margin-right: auto;
-
-
-
 
 }
 
@@ -136,3 +135,14 @@ height: 35px;
 width: 35px;
 
 }
+#Reseaux{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+    border-style: solid;
+    border-color: orangered;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    }
