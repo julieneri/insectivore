@@ -119,8 +119,8 @@ tab-box inverse {
    position: fixed;
    left: 0;
    right: 0;
-   height: 60px;
-   background-color: brown;
+   height: 70px;
+   background-color: #789583;
    top: 0;
 }
 .navigation { 
@@ -146,7 +146,7 @@ tab-box inverse {
  }
 #logo {
 height: 35px;
-width: 35px;
+width: 50px;
 
 }
 #Reseaux {
@@ -181,9 +181,9 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
-    padding: 40px;
-
+    width: 13%;
+    padding: 5px;
+    margin-left: 87px;
 }
 
 /* Style the images inside the grid */
@@ -229,4 +229,10 @@ body {
     color: black;
     font-size: 35px;
     cursor: pointer;
+}
+#navbar {
+    color: grey;
+    font-size: 34px;
+    font-style: normal;
+
 }
