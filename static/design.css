@@ -10,7 +10,6 @@ body
     margin-bottom: 100px;
 }
 
-
 h1{
    font-family: 'chalkduster'; 
    font-size: 400;
@@ -120,8 +119,8 @@ tab-box inverse {
    position: fixed;
    left: 0;
    right: 0;
-   height: 60px;
-   background-color: brown;
+   height: 70px;
+   background-color: #789583;
    top: 0;
 }
 .navigation { 
@@ -147,7 +146,7 @@ tab-box inverse {
  }
 #logo {
 height: 35px;
-width: 35px;
+width: 50px;
 
 }
 #Reseaux {
@@ -168,5 +167,72 @@ width: 35px;
     opacity:(0,4);
     cursor: pointer;
     transition: 0.3s;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 13%;
+    padding: 5px;
+    margin-left: 87px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    height: 90;
+    width: 90;
+    position: relative;
+    display: none;
+    padding-right: 150;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: center;
+    bottom: 15px;
+    left: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+#navbar {
+    color: grey;
+    font-size: 34px;
+    font-style: normal;
 
 }
