@@ -1,41 +1,27 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="test.css">
 </head>
 <body>
+  <div>
+<p>Decouvrez notre plat secret de la semaine !!</p>
 
-<div style="text-align:center">
-  <h2>Tabbed Image Gallery</h2>
-  <p>Click on the images below:</p>
+<p><button onclick="myFunction()">Clique petit cloporte</button></p>
+
+<div id="plat">Suspens ...</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("plat");
+    if (x.innerHTML === "Suspens ...") {
+        x.innerHTML = "Velout&eacute d'escargots crus";
+    } else {
+        x.innerHTML = "Suspens ...";
+    }
+}
+</script>
 </div>
-
-<!-- The four columns -->
-<div class="row">
-  <div class="column">
-    <img src="http://www.slate.fr/sites/default/files/photos/EAB2%20Fried%20Green%20Tomato%20Hornworms%20image%20p%2086.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="http://www.slate.fr/sites/default/files/photos/EAB2%20Sheesh%20Kabobs%20image%20p%2040.jpg" alt="Fjords" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="http://www.slate.fr/sites/default/files/photos/EAB2%20White%20Chocolate%20and%20Wax%20Worm%20Cookies%20image%20p%2092.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="http://www.insectescomestibles.fr/blog/wp-content/uploads/2015/05/salade-grillon-insectes-comestibles.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-  </div>
-</div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%" >
-  <div id="imgtext"></div>
-</div>
-
-<script src="test.js">function myFunction(imgs)</script>
 
 </body>
 </html>
-
