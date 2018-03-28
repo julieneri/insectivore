@@ -246,7 +246,6 @@ body {
     margin-right: 150px;
     text-align: justify
 }
-<<<<<<< HEAD
 
 @font-face{font-weight:normal;font-style:normal;font-family:'feathericons';src:url('../fonts/feathericons/feathericons.eot?-8is7zf');src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg')}
 *, *:after, *:before {box-sizing: border-box;}
@@ -265,8 +264,8 @@ body {
 .grid figure{display:inline-block;float:none;margin:10px auto;width:100%}
 }
 
-figure.effect-lily img{max-width:none;width:-webkit-calc(100% + 50px);width:calc(100% + 50px);opacity:.7;-webkit-transition:opacity .35s,-webkit-transform .35s;transition:opacity .35s,transform .35s;-webkit-transform:translate3d(-40px,0,0);transform:translate3d(-40px,0,0)}
-figure.effect-lily figcaption{text-align:left}
+figure.effect-lily img{max-width:none;width:-webkit-calc(100% + 50px);width:calc(100% + 50px);opacity:.7;-webkit-transition:opacity .35s,-webkit-transform .35s;transition:opacity .35s,transform .35s;-webkit-transform:translate3d(-40px,0,0);transform:translate3d(-40px,0,0);text-align: center}
+figure.effect-lily figcaption{text-align:center;}
 figure.effect-lily figcaption>div{position:absolute;bottom:0;left:0;padding:2em;width:100%;height:50%}
 figure.effect-lily h2,figure.effect-lily p{-webkit-transform:translate3d(0,40px,0);transform:translate3d(0,40px,0)}
 figure.effect-lily h2{-webkit-transition:-webkit-transform .35s;transition:transform .35s}
@@ -275,7 +274,6 @@ figure.effect-lily:hover img,figure.effect-lily:hover p{opacity:1}
 figure.effect-lily:hover img,figure.effect-lily:hover h2,figure.effect-lily:hover p{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 figure.effect-lily:hover p{-webkit-transition-delay:.05s;transition-delay:.05s;-webkit-transition-duration:.35s;transition-duration:.35s}
 
-=======
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); };
     10% { transform: translate(-1px, -2px) rotate(-1deg); };
@@ -289,29 +287,7 @@ figure.effect-lily:hover p{-webkit-transition-delay:.05s;transition-delay:.05s;-
     90% { transform: translate(1px, 2px) rotate(0deg); };
     100% { transform: translate(1px, -2px) rotate(-1deg); };
 }
-#home :hover {
-    animation: shake 0,5s;
-    animation-iteration-count: infinite;
+.grid {
+    width: 200%;
+    float: initial;
 }
-
-.containerbtn img {
-    width: 100%;
-    height: auto;
-}
-.containerbtn .entree {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'chalkduster';
-}
-.containerbtn
->>>>>>> ee098d09c67b1d8db248b565ad7f539feff0db6b
