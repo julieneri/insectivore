@@ -64,8 +64,12 @@ table{
 
 }
 .logo {
-    width: 25px;
-    height:25px;
+    width: 130px;
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+
 }
 .restaurant {
     width: 400px;
@@ -144,9 +148,9 @@ tab-box inverse {
 .container {
    height: 950px; 
  }
-#logo {
-height: 35px;
-width: 50px;
+.logofour {
+    height: 15px;
+    width: 15px;
 
 }
 #Reseaux {
@@ -235,4 +239,8 @@ body {
     font-size: 34px;
     font-style: normal;
 
+}
+#navbar :hover {
+    color: black;
+    font-style: normal;
 }
