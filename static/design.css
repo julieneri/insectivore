@@ -1,7 +1,7 @@
 body 
 
 { 
-    background-color: aliceblue;
+    background-color: #FCEB79;
     font-family:'raleway', sans-serif;
     margin: auto;
     margin-top: 100px;
@@ -64,8 +64,12 @@ table{
 
 }
 .logo {
-    width: 25px;
-    height:25px;
+    width: 130px;
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+
 }
 .restaurant {
     width: 400px;
@@ -107,9 +111,6 @@ tab-box inverse {
     opacity: 0,4;
 
 }
-
-
-
 .horizontal{
     width: 350px;
     height: 250px;
@@ -120,7 +121,7 @@ tab-box inverse {
    left: 0;
    right: 0;
    height: 70px;
-   background-color: #789583;
+   background-color: #88954C;
    top: 0;
 }
 .navigation { 
@@ -144,9 +145,9 @@ tab-box inverse {
 .container {
    height: 950px; 
  }
-#logo {
-height: 35px;
-width: 50px;
+.logofour {
+    height: 40px;
+    width: 40px;
 
 }
 #Reseaux {
@@ -235,4 +236,13 @@ body {
     font-size: 34px;
     font-style: normal;
 
+}
+#navbar :hover {
+    color: black;
+    font-style: normal;
+}
+.description {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify
 }
