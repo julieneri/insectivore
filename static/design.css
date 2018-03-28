@@ -249,8 +249,8 @@ body {
 
 @font-face{font-weight:normal;font-style:normal;font-family:'feathericons';src:url('../fonts/feathericons/feathericons.eot?-8is7zf');src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg')}
 *, *:after, *:before {box-sizing: border-box;}
-.grid{position:relative;margin:0 auto;padding:1em 0 4em;max-width:1000px;list-style:none;text-align:center}
-.grid figure{position:relative;float:left;overflow:hidden;margin:10px 1%;min-width:320px;max-width:480px;max-height:360px;width:48%;background:#3085a3;text-align:center;cursor:pointer}
+.grid{position:relative;margin:0 auto;padding:1em 0 4em;max-width:10000px;list-style:none;text-align:center}
+.grid figure{position:relative;float:left;overflow:hidden;margin:10px 1%;min-width:320px;max-width:10000px;max-height:10000px;width:48%;background:#3085a3;text-align:center;cursor:pointer}
 .grid figure img{position:relative;display:block;min-height:100%;max-width:100%;opacity:.8}
 .grid figure figcaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden}
 .grid figure figcaption::before,.grid figure figcaption::after{pointer-events:none}
