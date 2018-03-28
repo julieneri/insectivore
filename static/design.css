@@ -111,9 +111,6 @@ tab-box inverse {
     opacity: 0,4;
 
 }
-
-
-
 .horizontal{
     width: 350px;
     height: 250px;
@@ -149,8 +146,8 @@ tab-box inverse {
    height: 950px; 
  }
 .logofour {
-    height: 15px;
-    width: 15px;
+    height: 40px;
+    width: 40px;
 
 }
 #Reseaux {
@@ -243,4 +240,9 @@ body {
 #navbar :hover {
     color: black;
     font-style: normal;
+}
+.description {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify
 }
