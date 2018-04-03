@@ -291,3 +291,11 @@ figure.effect-lily:hover p{-webkit-transition-delay:.05s;transition-delay:.05s;-
     width: 200%;
     float: initial;
 }
+ol {
+    font-size: 24px;
+
+}
+.prix {
+    font-size: 26px;
+    font-style: bold;
+}
